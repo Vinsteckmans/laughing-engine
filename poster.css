@@ -1,0 +1,91 @@
+body{
+    background-color: #eae9ce;
+}
+
+.poster {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: #E2C59D;
+    width: 297px;
+    height: 481px;
+    z-index: 0;
+    box-shadow: #e2e1c3 10px 10px;
+}
+
+
+.Cirkel1{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.Bauhaus{
+    z-index: 5;
+    width: 230px;
+    margin-left: 35px;
+    margin-top: -186px;
+}
+
+.Naam{
+    font-family: "Bauhaus93";
+    z-index: 7;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: -230px;
+}
+
+.Bio{
+    font-size: 10px;
+    display: block;
+    margin-top: -10px;
+    padding-left: 60px;
+    padding-right: 30px;
+    z-index: 8;
+}
+
+.Weetje{
+    font-weight: bold;
+    font-size: 8.5px;
+    margin-top: 280px;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 9;
+}
+@font-face{ 
+    font-family: "Bauhaus93"; 
+    src: url("/Fonts/BAUHS93.eot"); 
+    src: url("/Fonts/BAUHS93.ttf") format("truetype"); 
+    font-stretch: normal; 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
+.Rechthoek2{
+    width: 200px;
+    margin-top: -310px;
+    margin-left: 97px;
+    z-index: 10;
+}
+
+.Cirkel1 p{
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #E2C59D;
+    z-index: 11;
+}
+
+.Geboren{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+    z-index: 2;
+}
